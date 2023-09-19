@@ -1,0 +1,79 @@
+{
+    "bad_keywords": [
+      "20099",
+      "8000",
+      "ell"
+
+    ],
+    "rules": [
+        {
+            "find": "oa)",
+            "replace": "a)"
+        },
+        {
+            "find": "ob)",
+            "replace": "b)"
+        },
+        {
+            "find": "od)",
+            "replace": "d)"
+        },
+        {
+            "find": "oc)",
+            "replace": "c)"
+        },
+        {
+            "find": "0) ",
+            "replace": "0 )"
+        },
+        {
+            "find": "1)",
+            "replace": "1 )"
+        },
+        {
+            "find": "2)",
+            "replace": "2 )"
+        },
+        {
+            "find": "3)",
+            "replace": "3 )"
+        },
+        {
+            "find": "4)",
+            "replace": "4 )"
+        },
+        {
+            "find": "5)",
+            "replace": "5 )"
+        },
+        {
+            "find": "6)",
+            "replace": "6 )"
+        },
+        {
+            "find": "7)",
+            "replace": "7 )"
+        },
+        {
+            "find": "8)",
+            "replace": "8 )"
+        },
+        {
+            "find": "9)",
+            "replace": "9 )"
+        },
+        {
+            "find": "f(x)",
+            "replace": "f ( x )"
+        }
+        
+      ],
+            "last_word": [
+                "resultados",
+                "e"
+            ]
+         
+
+    
+
+  }
