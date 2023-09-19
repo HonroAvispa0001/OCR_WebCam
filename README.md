@@ -1,5 +1,5 @@
 # OCR_WebCam
-El códigoe s una aplicación de Python construida utilizando la biblioteca Tkinter para la interfaz gráfica y diversas bibliotecas adicionales para manipular imágenes y realizar OCR (Reconocimiento Óptico de Caracteres) a través de la API de Google Cloud Vision. A continuación, se describe cada sección del código:
+El código es una aplicación de Python construida utilizando la biblioteca Tkinter para la interfaz gráfica y diversas bibliotecas adicionales para manipular imágenes y realizar OCR (Reconocimiento Óptico de Caracteres) a través de la API de Google Cloud Vision. A continuación, se describe cada sección del código:
 
 ### Importaciones
 
@@ -15,6 +15,8 @@ El códigoe s una aplicación de Python construida utilizando la biblioteca Tkin
 - **run_ocr**: Función que captura una imagen desde la webcam, la procesa aplicando varios filtros y técnicas de procesamiento de imágenes para luego enviarla a la API de Google Cloud Vision para realizar OCR. El texto resultante se copia al portapapeles y se muestra una notificación al usuario.
 - **run_fast_ocr**: Similar a `run_ocr` pero con diferencias en la configuración de la cámara y sin la notificación final de éxito. 
 - **show_image**: Función que simplemente captura una imagen desde la webcam, aplica algún procesamiento básico y muestra la imagen al usuario.
+
+  
   ![Captura de pantalla 2023-09-18 232622](https://github.com/HonroAvisp/OCR_WebCam/assets/73007200/76521f10-95ae-49a2-9ed4-40c85414d76a)
 
 ### Creación de la Interfaz Gráfica (GUI)
